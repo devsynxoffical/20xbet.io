@@ -9,3 +9,4 @@ whitenoise
 dj-database-url
 pyotp
 qrcode
+eth-account
