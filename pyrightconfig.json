@@ -1,0 +1,29 @@
+{
+  "include": [
+    "**/*.py"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.*",
+    "**/venv",
+    "**/env"
+  ],
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": false,
+  "pythonPlatform": "All",
+  "venvPath": ".",
+  "venv": "venv",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.11",
+      "pythonPlatform": "All",
+      "extraPaths": [
+        "./venv/Lib/site-packages"
+      ]
+    }
+  ]
+}
