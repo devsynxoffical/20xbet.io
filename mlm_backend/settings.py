@@ -28,6 +28,25 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = ['*']
 
+# CORS Configuration
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://20xbet.online',
+    'https://www.20xbet.online',
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+# CSRF Configuration
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://20xbet.online',
+    'https://www.20xbet.online',
+    'https://20xbetio-production.up.railway.app',
+]
+
 # Application definition
 
 INSTALLED_APPS = [
